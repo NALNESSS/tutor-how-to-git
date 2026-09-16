@@ -2,12 +2,21 @@
 using namespace std;
 
 int main(){
-    int i, j, k;
+    int i, j, k, l, m, n;
     for (i = 0; i <= 4; i++){
         for (j = 4; j >= i; j--){
             cout << " ";
         }
         for (k = 0; k<=i; k++){
+            cout << "* ";
+        }
+    cout << endl;
+    }
+    for (i = 1; i <= 4; i++){
+        for (j = 0; j <= i; j++){
+            cout << " ";
+        }
+        for (k = 4; k >= i; k--){
             cout << "* ";
         }
     cout << endl;
